@@ -14,16 +14,16 @@ const Header = () => {
       </label>
       <ul class="menu">
         <li>
-          <a href="#work">Our Work</a>
+          <a href="/home">Our Work</a>
         </li>
         <li>
-          <a href="#about">Places to visit</a>
+          <a href="/places">Places to visit</a>
         </li>
         <li>
-          <a href="#careers">Vehicles</a>
+          <a href="/vehicles">Vehicles</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="/contact-us">Contact</a>
         </li>
       </ul>
     </header>
