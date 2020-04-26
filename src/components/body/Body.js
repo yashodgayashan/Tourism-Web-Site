@@ -12,7 +12,7 @@ const Body = () => {
       <div className="bodyDiv"></div>
       <Router>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/home">
