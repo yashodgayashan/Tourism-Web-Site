@@ -4,12 +4,17 @@ import Home from "./components/home/Home";
 import Places from "./components/places/Places";
 import Vehicles from "./components/vehicles/Vehicles";
 import AboutUs from "./components/aboutUs/AboutUs";
+import "./Body.css";
 
 const Body = () => {
   return (
     <Fragment>
+      <div className="bodyDiv"></div>
       <Router>
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route path="/home">
             <Home />
           </Route>

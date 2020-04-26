@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <header class="header">
-      <a href="" class="logo">
+      <a href="/home" class="logo">
         <img src={logo} width="150px" />
       </a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -14,7 +14,7 @@ const Header = () => {
       </label>
       <ul class="menu">
         <li>
-          <a href="/home">Our Work</a>
+          <a href="/home">Home</a>
         </li>
         <li>
           <a href="/places">Places to visit</a>
