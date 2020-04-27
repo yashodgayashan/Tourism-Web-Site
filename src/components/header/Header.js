@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from "../../assets/logo/miraj-tours.png";
 import "./Header.css";
 
@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header class="header">
       <a href="/home" class="logo">
-        <img src={logo} width="150px" />
+        <img src={logo} width="150px" alt="logo" />
       </a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn">
