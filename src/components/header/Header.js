@@ -4,29 +4,35 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header class="header">
-      <a href="/home" class="logo">
-        <img src={logo} width="150px" alt="logo" />
-      </a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn">
-        <span class="navicon"></span>
+    <nav className="all">
+      <input type="checkbox" id="check"></input>
+      <label for="check" className="checkbtn">
+        <i className="fas fa-bars"></i>
       </label>
-      <ul class="menu">
-        <li>
-          <a href="/home">Home</a>
+      <label className="logo all">DesignX</label>
+      <ul className="all">
+        <li className="all">
+          <a className="active" href="#" className="all">
+            Home
+          </a>
         </li>
-        <li>
-          <a href="/places">Places to visit</a>
+        <li className="all">
+          <a href="#" className="all">
+            Places to visit
+          </a>
         </li>
-        <li>
-          <a href="/vehicles">Vehicles</a>
+        <li className="all">
+          <a href="#" className="all">
+            Vehicles
+          </a>
         </li>
-        <li>
-          <a href="/contact-us">Contact</a>
+        <li className="all">
+          <a href="#" className="all">
+            Contact
+          </a>
         </li>
       </ul>
-    </header>
+    </nav>
   );
 };
 
